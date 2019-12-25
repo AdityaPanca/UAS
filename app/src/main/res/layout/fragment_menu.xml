@@ -15,19 +15,21 @@
             android:id="@+id/textGaji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kalkulator Gaji"
-            android:textColor="#000"
+            android:text="Klik Gambar Untuk Memulai"
+            android:textColor="@color/biru3"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.174" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="268dp"
             android:layout_height="224dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@drawable/cover"
             app:layout_constraintBottom_toTopOf="@+id/guideline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
