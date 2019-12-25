@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import java.io.InputStreamReader;//Add these two imports
+import java.io.BufferedReader;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -92,7 +95,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, Login.class));
         finish();
     }
 
