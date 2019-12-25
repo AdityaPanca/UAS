@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783054963835",
+    "firebase_url": "https://hitunggaji-f6818.firebaseio.com",
+    "project_id": "hitunggaji-f6818",
+    "storage_bucket": "hitunggaji-f6818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783054963835:android:ea6c7d54e8eb4073038ede",
+        "android_client_info": {
+          "package_name": "com.adit.hitunggaji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783054963835-8v5t56ktm68g1l9ols33liqq8o2lv2g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adit.hitunggaji",
+            "certificate_hash": "db83221b4510d24c857636f1fa307e85c066cdfd"
+          }
+        },
+        {
+          "client_id": "783054963835-1r6v6ge33rid7n7umjgat8uvr0odkrch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE2CdWk_riJwo-R1G8SLgViHsB4tQDJvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783054963835-1r6v6ge33rid7n7umjgat8uvr0odkrch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
